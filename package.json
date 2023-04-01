@@ -12,7 +12,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint", 
+    "lint": "next lint",
     "knex": "knex"
   },
   "keywords": [
@@ -24,6 +24,7 @@
   "author": "hillzacky",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "js-cookie": "^3.0.1",
     "jsonwebtoken": "^9.0.0",
     "knex": "^2.4.2",

@@ -13,7 +13,7 @@ export default function Navbar(args) {
                                 <div className="row">
                                     <div className="col-auto">
                                         <figure className="avatar avatar-44 rounded-15">
-                                            <Image src="assets/img/user1.jpg" alt=""/>
+                                            <Image src="/assets/img/user1.jpg" alt="" width={64} height={64}/>
                                         </figure>
                                     </div>
                                     <div className="col px-0 align-self-center">

@@ -1,10 +1,12 @@
 
 import Image from 'next/image'
+import Layout from '@app/layouts/app'
 import { host } from '@app/libs/helper'
 
 function HomePage() {
   return (
     <>
+      <Layout>
       <section className="h-100">
         <header className="header position-fixed">
             <div className="row">
@@ -15,7 +17,7 @@ function HomePage() {
                 </div>
                 <div className="col align-self-center text-center">
                     <div className="logo-small">
-                        <Image src={ host() + "/public/assets/img/logo.png" } alt="" width={64} height={64}/>
+                        <Image src={ "/assets/img/logo.png" } alt="" width={64} height={64}/>
                         <h5>Mobile</h5>
                     </div>
                 </div>
@@ -31,7 +33,7 @@ function HomePage() {
             <div className="row mb-4">
                 <div className="col-auto">
                     <div className="avatar avatar-50 shadow rounded-10">
-                        <Image src="assets/img/user1.jpg" alt=""/>
+                        <Image src="/assets/img/user1.jpg" alt="" width={64} height={64}/>
                     </div>
                 </div>
                 <div className="col align-self-center ps-0">
@@ -47,7 +49,7 @@ function HomePage() {
                             <div className="row">
                                 <div className="col-auto">
                                     <div className="avatar avatar-44 shadow-sm rounded-10">
-                                        <Image src="assets/img/user3.jpg" alt=""/>
+                                        <Image src="/assets/img/user3.jpg" alt="" width={64} height={64}/>
                                     </div>
                                 </div>
                                 <div className="col align-self-center ps-0">
@@ -82,7 +84,7 @@ function HomePage() {
                                     <div className="card-body">
                                         <div className="row mb-3">
                                             <div className="col-auto align-self-center">
-                                                <Image src="assets/img/masterocard.png" alt=""/>
+                                                <Image src="/assets/img/masterocard.png" alt="" width={64} height={64}/>
                                             </div>
                                             <div className="col align-self-center text-end">
                                                 <p className="small">
@@ -109,7 +111,7 @@ function HomePage() {
                                     <div className="card-body">
                                         <div className="row mb-3">
                                             <div className="col-auto align-self-center">
-                                                <Image src="assets/img/masterocard.png" alt=""/>
+                                                <Image src="/assets/img/masterocard.png" alt="" width={64} height={64}/>
                                             </div>
                                             <div className="col align-self-center text-end">
                                                 <p className="small">
@@ -179,7 +181,7 @@ function HomePage() {
                                 <a href="profile.html" className="card text-center">
                                     <div className="card-body">
                                         <figure className="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <Image src="assets/img/user4.jpg" alt=""/>
+                                            <Image src="/assets/img/user4.jpg" alt="" width={64} height={64}/>
                                         </figure>
                                         <p className="text-color-theme size-12 small">Nicolas</p>
                                     </div>
@@ -190,7 +192,7 @@ function HomePage() {
                                 <a href="profile.html" className="card text-center">
                                     <div className="card-body">
                                         <figure className="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <Image src="assets/img/user2.jpg" alt=""/>
+                                            <Image src="/assets/img/user2.jpg" alt="" width={64} height={64}/>
                                         </figure>
                                         <p className="text-color-theme size-12 small">Shelvey</p>
                                     </div>
@@ -201,7 +203,7 @@ function HomePage() {
                                 <a href="profile.html" className="card text-center">
                                     <div className="card-body">
                                         <figure className="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <Image src="assets/img/user3.jpg" alt=""/>
+                                            <Image src="/assets/img/user3.jpg" alt="" width={64} height={64}/>
                                         </figure>
                                         <p className="text-color-theme size-12 small">Amenda</p>
                                     </div>
@@ -212,7 +214,7 @@ function HomePage() {
                                 <a href="profile.html" className="card text-center">
                                     <div className="card-body">
                                         <figure className="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <Image src="assets/img/user1.jpg" alt=""/>
+                                            <Image src="/assets/img/user1.jpg" alt="" width={64} height={64}/>
                                         </figure>
                                         <p className="text-color-theme size-12 small">RXL15</p>
                                     </div>
@@ -222,7 +224,7 @@ function HomePage() {
                                 <a href="profile.html" className="card text-center">
                                     <div className="card-body">
                                         <figure className="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <Image src="assets/img/user4.jpg" alt=""/>
+                                            <Image src="/assets/img/user4.jpg" alt="" width={64} height={64}/>
                                         </figure>
                                         <p className="text-color-theme size-12 small">Nicolas</p>
                                     </div>
@@ -233,7 +235,7 @@ function HomePage() {
                                 <a href="profile.html" className="card text-center">
                                     <div className="card-body">
                                         <figure className="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <Image src="assets/img/user2.jpg" alt=""/>
+                                            <Image src="/assets/img/user2.jpg" alt="" width={64} height={64}/>
                                         </figure>
                                         <p className="text-color-theme size-12 small">Shelvey</p>
                                     </div>
@@ -244,7 +246,7 @@ function HomePage() {
                                 <a href="profile.html" className="card text-center">
                                     <div className="card-body">
                                         <figure className="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <Image src="assets/img/user3.jpg" alt=""/>
+                                            <Image src="/assets/img/user3.jpg" alt="" width={64} height={64}/>
                                         </figure>
                                         <p className="text-color-theme size-12 small">Amenda</p>
                                     </div>
@@ -255,7 +257,7 @@ function HomePage() {
                                 <a href="profile.html" className="card text-center">
                                     <div className="card-body">
                                         <figure className="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <Image src="assets/img/user1.jpg" alt=""/>
+                                            <Image src="/assets/img/user1.jpg" alt="" width={64} height={64}/>
                                         </figure>
                                         <p className="text-color-theme size-12 small">RXL15</p>
                                     </div>
@@ -281,7 +283,7 @@ function HomePage() {
                                     </div>
                                 </div>
                                 <div className="col-6 align-self-center ps-0">
-                                    <Image src="assets/img/offergraphics.png" alt="" className="mw-100"/>
+                                    <Image src="/assets/img/offergraphics.png" alt="" className="mw-100" width={64} height={64}/>
                                 </div>
                             </div>
                         </div>
@@ -399,7 +401,7 @@ function HomePage() {
                             <div className="row">
                                 <div className="col-auto">
                                     <div className="avatar avatar-50 shadow rounded-10 ">
-                                        <Image src="assets/img/company4.jpg" alt=""/>
+                                        <Image src="/assets/img/company4.jpg" alt="" width={64} height={64}/>
                                     </div>
                                 </div>
                                 <div className="col align-self-center ps-0">
@@ -417,7 +419,7 @@ function HomePage() {
                             <div className="row">
                                 <div className="col-auto">
                                     <div className="avatar avatar-50 shadow rounded-10">
-                                        <Image src="assets/img/company5.png" alt=""/>
+                                        <Image src="/assets/img/company5.png" alt="" width={64} height={64}/>
                                     </div>
                                 </div>
                                 <div className="col align-self-center ps-0">
@@ -435,7 +437,7 @@ function HomePage() {
                             <div className="row">
                                 <div className="col-auto">
                                     <div className="avatar avatar-50 shadow rounded-10">
-                                        <Image src="assets/img/company1.png" alt=""/>
+                                        <Image src="/assets/img/company1.png" alt="" width={64} height={64}/>
                                     </div>
                                 </div>
                                 <div className="col align-self-center ps-0">
@@ -453,7 +455,7 @@ function HomePage() {
                             <div className="row">
                                 <div className="col-auto">
                                     <div className="avatar avatar-50 shadow rounded-10">
-                                        <Image src="assets/img/company3.jpg" alt=""/>
+                                        <Image src="/assets/img/company3.jpg" alt="" width={64} height={64}/>
                                     </div>
                                 </div>
                                 <div className="col align-self-center ps-0">
@@ -485,7 +487,7 @@ function HomePage() {
                             <div className="row">
                                 <div className="col-auto">
                                     <div className="avatar avatar-60 shadow-sm rounded-10 coverImage">
-                                        <Image src="assets/img/news.jpg" alt=""/>
+                                        <Image src="/assets/img/news.jpg" alt="" width={64} height={64}/>
                                     </div>
                                 </div>
                                 <div className="col align-self-center ps-0">
@@ -503,7 +505,7 @@ function HomePage() {
                             <div className="row">
                                 <div className="col-auto">
                                     <div className="avatar avatar-60 shadow-sm rounded-10 coverImage">
-                                        <Image src="assets/img/news1.jpg" alt=""/>
+                                        <Image src="/assets/img/news1.jpg" alt="" width={64} height={64}/>
                                     </div>
                                 </div>
                                 <div className="col align-self-center ps-0">
@@ -521,7 +523,7 @@ function HomePage() {
                             <div className="row">
                                 <div className="col-auto">
                                     <div className="avatar avatar-60 shadow-sm rounded-10 coverImage">
-                                        <Image src="assets/img/news2.jpg" alt=""/>
+                                        <Image src="/assets/img/news2.jpg" alt="" width={64} height={64}/>
                                     </div>
                                 </div>
                                 <div className="col align-self-center ps-0">
@@ -536,6 +538,7 @@ function HomePage() {
 
         </div>
       </section>
+			</Layout>
     </>
   )
 }

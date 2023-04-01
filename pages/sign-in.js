@@ -1,5 +1,5 @@
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Header from '@app/components/header';
+import Footer from '@app/components/footer';
 import Image from 'next/image';
 import cs from '../public/assets/css/sign-in.css';
 

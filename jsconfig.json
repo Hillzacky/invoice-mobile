@@ -7,7 +7,11 @@
         "@app/db/migrations/*": ["/src/database/migrations/*"],
         "@app/db/seeds/*": ["/src/database/seeds/*"],
         "@app/layouts/*": ["/src/layouts/*"],
-        "@app/libs/*": ["/src/library/*"]
+        "@app/libs/*": ["/src/library/*"],
+        "@app/auth/*": ["/pages/api/auth/*"],
+        "@app/assets/*": ["/public/assets/*"],
+        "@page/*": ["/pages/*"],
+        "@public/*": ["/public/*"],
     }
   },
   "exclude": ["node_modules"]

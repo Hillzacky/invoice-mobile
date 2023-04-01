@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import { host } from '@app/system/library/helper'
+import { host } from '@app/libs/helper'
 
 function HomePage() {
   return (

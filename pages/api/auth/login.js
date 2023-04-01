@@ -1,5 +1,5 @@
-import db from '@app/system/library/db';
-import { allowMethod } from '@app/system/library/helper';
+import db from '@app/database/db';
+import { allowMethod } from '@app/libs/helper';
 import bcrypt from 'bcryptjs';
 
 export default async (req, res)=>{

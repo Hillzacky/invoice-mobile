@@ -1,4 +1,4 @@
-import db from '@app/system/database/db';
+import db from '@app/database/db';
 
 export default async (req,res) => {
   if(req.method!=='PUT') return res.status(405).end();

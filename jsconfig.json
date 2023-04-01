@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+        "@app/components/*": ["/src/components/*"],
+        "@app/database/*": ["/src/database/*"],
+        "@app/db/migrations/*": ["/src/database/migrations/*"],
+        "@app/db/seeds/*": ["/src/database/seeds/*"],
+        "@app/layouts/*": ["/src/layouts/*"],
+        "@app/libs/*": ["/src/library/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
